@@ -1,0 +1,7 @@
+.contenedor{
+  display: flex;
+  margin: 100px;
+}
+.example-chip-list {
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+.margen{
+  margin: 4px 12px;
+ }
+
+ .margin{
+   margin-top: 1rem;
+ }
+
+ .example-section {
+  margin: 3rem;
+   text-align: left;
+   display: flex;
+   width: 80%;
+   align-self: 50%;
+   background-color: azure;
+ }
+  .example-margin {
+   margin: 0 12px;
+ }
+
+ ul {
+   list-style-type: none;
+   margin-top: 4px;
+ }

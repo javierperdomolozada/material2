@@ -1,0 +1,57 @@
+<p>
+  <span matBadge="4" matBadgeOverlap="false">Text with a badge</span>
+</p>
+
+<p>
+    <span matBadge="1" matBadgeSize="large">Text with large badge</span>
+</p>
+
+<p>
+  Button with a badge on the left
+  <button mat-raised-button color="primary"
+      matBadge="8" matBadgePosition="before"  matBadgeColor="accent">
+    Action
+  </button>
+</p>
+
+<p>
+  Boton con Badge en la parte inferior izquierda
+  <button mat-raised-button color="primary"
+      matBadge="8"  matBadgeOverlap="false" matBadgePosition="below before"  matBadgeColor="accent">
+    Action
+  </button>
+</p>
+
+<!-- 'small' | 'medium' | 'large'; -->
+
+<p>
+    Button toggles badge visibility
+    <button mat-raised-button matBadge="7"  [matBadgeHidden]="hidden1" (click)="toggleBadgeVisibility1()">
+        Hide
+    </button>
+</p>
+<br />
+<br />
+<p>
+  Button toggles badge visibility
+  <button mat-raised-button matBadge="7" [matBadgeHidden]="hidden2" (click)="toggleBadgeVisibility2()">
+      Hide
+  </button>
+</p>
+<p>
+  Click to Raise Number of Badge
+  <button mat-raised-button [matBadge]="counter" [matBadgeHidden]="hidden" (click)="incrementCount()">
+      Click Me!
+  </button>
+</p>
+<p>
+  Icon with a badge
+  <mat-icon matBadge="15" matBadgeColor="warn">home</mat-icon>
+    <!-- Include text description of the icon's meaning for screen-readers -->
+    <span class="cdk-visually-hidden">
+      Example with a home icon with overlaid badge showing the number 15
+    </span>
+</p>
+
+
+
